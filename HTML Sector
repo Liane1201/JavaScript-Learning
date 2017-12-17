@@ -1,0 +1,48 @@
+# JavaScript-Learning
+
+## HTML sector:
+# Ordered list
+<ol>
+   <li class="fruitsLi">Apple</li>
+   <li class="fruitsLi">Orange</li>
+   <li class="fruitsLi">Banana</li>
+   </ol>
+
+# Unordered list
+<ul>
+  <li> BIA</li>
+  
+  <li> MIS</li>
+  <li> CS </li>
+  </ul>
+
+# Table
+ <table> 
+  <tr>  #table row
+    <th>Name</th> #table header, 3 columns
+    <th>GPA</th>
+    <th>GRE</th>
+   </tr>
+  <tr> #table row
+    <td>Jack</td>
+    <td>3.5</td>
+    <td>316</td>
+   </tr>
+  <tr>
+    <td>Lucy</td>
+    <td>3.8</td>
+    <td>320</td>
+   </tr>
+  <tr>
+    </table>
+    
+# Emphysize and slanted
+<p> Time for <b> Back to School, <em> SALES GALORE! </em>, Coupons online, </b> open early </p>
+em: emphysize; /b:bold
+
+# Add link
+link at <a href="https://commons.wikimedia.org/wiki/Main_Page" target = "blank_"> Wikipedia Commons </a>
+outcome: click on "Wikipedia Commons", link to the url
+
+# Add image
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Mallnitz_Tauerntal_Zedelnig_20160807.jpg/500px-Mallnitz_Tauerntal_Zedelnig_20160807.jpg" id="pic1"/>
