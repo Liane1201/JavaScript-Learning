@@ -1,0 +1,17 @@
+# Header style
+h1  { 
+  font-family: Georgia;
+  text-align: center;
+  color:#9F2511;
+  text-decoration:underline;
+}
+
+
+div {
+  background-color: #7F5937;
+  width : 300pt;
+  padding: 10pt;
+  margin:5pt;
+  border: 100px ;
+  font-size:19pt;
+}
