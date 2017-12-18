@@ -1,0 +1,60 @@
+
+function alert_text(){
+  alert('Big Surprise!');
+}
+
+# when click on the button, pop out the window says " Press a button", 
+# confirm function displays a dialog box with a specified message, along with an OK and a Cancel button.
+# used for verify or accept the choice.
+
+function myconfirm(){
+  var txt;
+  var r = confirm("Press a button!"); 
+  if(r == true){  # 'true' means click on OK
+    txt = alert("You pressed ok");  #'alert': pop out the window says "You pressed ok"
+  }
+  else{
+    txt = alert("Are you sure you want to cancel?"); 
+  }
+}
+
+# style <div> with background color, when click on the button, bg color of div text changed
+function changecolor(){
+  var dd1=document.getElementById("d1");  #give first div id=d1
+  var dd2=document.getElementById("d2");
+  
+  dd1.className = "blueback";       #define blueback in CSS: .blueback{
+                                         # background-color:lightblue;
+                                    #}
+  dd2.className = "yellowback";
+}
+
+#style <div> with text, when click on the button, the text changed
+function changetext(){
+   var dd1=document.getElementById("d1");
+   var dd2=document.getElementById("d2");
+  
+  dd1.innerHTML = "Bonjour";
+  dd2.innerHTML = "Sayonora";
+}
+
+# change the button value after click
+#first define a function same as below
+var bb1 = document.getElementById("b1");  #bb1 is the id of button
+bb1.value = "ABCD";
+
+# canvas 
+function doColor(){
+  var canvas = document.getElementById("c1"); #c1 is canvas id
+  canvas.style.backgroundColor = "blue"; 
+  
+  var context = canvas.getContext("2d");  #canvas.getContext("2d") is used to get the context in canvas
+  context.fillStyle = "yellow"; #context bg fill in yellow
+  context.fillRect(10,10,60,60); #first context position:(x,y,width,height)
+  context.fillRect(80,10,60,60); #second context position
+  
+  context.fillStyle = "black"; #font color in black
+  context.font="20px Georgia"; 
+  context.fillText("Hello",15,45); # context & position 
+}
+
