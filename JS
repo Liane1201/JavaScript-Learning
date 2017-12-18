@@ -58,3 +58,22 @@ function doColor(){
   context.fillText("Hello",15,45); # context & position 
 }
 
+# Upload image _ define function
+function upload(){
+  var imgcanvas = document.getElementById("can"); #can is the canvas id used for display image
+  var fileinput = document.getElementById("finput");
+  var image = new SimpleImage(fileinput);
+  image.drawTo(imgcanvas);
+ }
+
+#Image grayscale
+function makeGray(){  #need add a button of make gray in HTML first
+  for (var pixel of image.values()){
+   var avg = (pixel.getRed() + pixel.getGreen() + pixel.getBlue())/3 ;
+   pixel.setRed(avg);
+   pixel.setGreen(avg);
+   pixel.setBlue(avg);
+  }
+  var imgcanvas = document.getImageById("can");
+  image.drawTo(imgcanvas);
+}
