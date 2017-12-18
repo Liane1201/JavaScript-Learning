@@ -59,3 +59,8 @@ outcome: click on "Wikipedia Commons", link to the url
           accept = "image/*"
           id = "finput"
           onchange = "upload()" >    #define upload() in JS
+          
+# Make Grayscale, create a button
+<input type = "button"
+       value = "Make GrayScale"
+       onclick = "makeGray()"> #makeGray() is defined in JS
