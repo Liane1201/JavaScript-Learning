@@ -74,6 +74,6 @@ function makeGray(){  #need add a button of make gray in HTML first
    pixel.setGreen(avg);
    pixel.setBlue(avg);
   }
-  var imgcanvas = document.getImageById("can");
+  var imgcanvas = document.getElementById("can");
   image.drawTo(imgcanvas);
 }
